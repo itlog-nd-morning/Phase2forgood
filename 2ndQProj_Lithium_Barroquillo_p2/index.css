@@ -1,0 +1,102 @@
+body {
+	text-align: center;
+	background-color: #fff8dc;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #228b22;
+}
+
+li {float:left; font-size: 2vw; position:center;}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:link {display:inline; color:#fff8dc; padding:10px;}
+li a:visited {color:#fff8dc;}
+li a:hover {background-color:#006400; color:#000000;}
+li a:active {background-color: #008000; color:#fff8dc;}
+
+h1 {
+   font-size: 4vw;
+   font-family: Verdana, Helvetica, Sans-Serif;
+   color: #228b22;
+}
+
+h2 {
+	font-size: 2vw;
+	color: #228b22;
+	margin-left: 60px;
+}
+
+.diff {
+	color: #006400;
+}
+
+p {
+   font-size: 1.5vw;
+   color: #228b22;
+   text-align: center;
+}
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.soc {
+	text-align: left;
+}
+
+.fa {
+  padding: 1vw;
+  font-size: 2vw;
+  width: 2vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+	background:#dc143c;
+	color: white;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+h4 {
+	font-size: 1vw;
+}
+
+
+
+
